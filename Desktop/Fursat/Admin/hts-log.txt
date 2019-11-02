@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 28 Aug 2019 16:40:24 at https://colorlib.com/polygon/concept/pages/chart-c3.html?fbclid=IwAR1KO2SKV6PaG5xzK3QKrHMczujpRS4MK8IOavAIX2xalIZPCf5ug2pkZhs +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://colorlib.com/polygon/concept/pages/chart-c3.html?fbclid=IwAR1KO2SKV6PaG5xzK3QKrHMczujpRS4MK8IOavAIX2xalIZPCf5ug2pkZhs -O1 "C:\My Web Sites\Admin" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:41:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jituchauhan.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14 (from https://colorlib.com/polygon/concept/pages/index.html)
+16:41:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://jituchauhan.com/wp-includes/js/jquery/jquery.js?ver=1.12.4 (from https://colorlib.com/polygon/concept/pages/index.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/rowgroup/1.0.4/js/dataTables.rowGroup.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+16:41:27	Error: 	"Not Found" (404) at link https://colorlib.com/cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js (from https://colorlib.com/polygon/concept/pages/data-tables.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 17 seconds : 449 links scanned, 435 files written (13002337 bytes overall) [5563288 bytes received at 40607 bytes/sec], 10823532 bytes transferred using HTTP compression in 418 files, ratio 28%, 32.0 requests per connection
+(11 errors, 2 warnings, 0 messages)

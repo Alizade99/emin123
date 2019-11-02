@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #f3f0f0; }
+    a {
+        text-decoration: none;
+        color: #f3f0f0;
+     }
+        a:hover {
+          text-decoration: none;
+        color: white }
+      
+      ul {
+        list-style: none; }        
+          .top-left {
+            padding: 0px;
+            margin: 12px; }
+
+           .top-left ul li {
+            display: inline; 
+              padding: 12px;
+}       
+         .top-left ul li a {
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+            font-family: raleway;
+            
+            padding: 1px 2px; 
+          }
+      .top-left ul li a:hover {
+            color: #ff0707;
+            text-decoration: none; 
+          }
+                     .sosial-img:hover{
+                       transform: rotate(-360deg);
+                       transition: transform .4s;
+                     }       
+                .market-header {
+                 position: relative;
+                 z-index: 9999;
+                 }      
+                 .fixed-menu{
+                   position: fixed;                  
+                   width: 100%;
+                   opacity: 0.8;
+                   background-color: rgb(201, 180, 180);
+                   height: 70px;
+                 }        
+                  .market-header .navbar-inverse {
+                    background-color: transparent;
+                    border-color: transparent; }
+                  
+                  .market-header.navbar
+                   {  margin: 0px;
+                    padding: 0px; }
+                 
+                    .menu-a {
+                        font-weight: 700;
+                        color: #666666; }                     
+                  .mainDrop a{
+                    color:#666666;
+                  }          
+                  .mainDrop:hover .dropdown-menu{
+                    display: block
+                  }
+
+
+                  footer .footer-links ul {
+                    margin: 0;
+                    padding: 0; }
+                    footer .footer-links ul li {
+                      list-style: none;
+                      transition: .3s; }
+                      footer .footer-links ul li:hover {
+                        transform: translateX(2px); }
+                      footer .footer-links ul li a {
+                        text-decoration: none;
+                        color:black; }
+                        footer .footer-links img{
+                          width: 35px;
+                          border-radius: 15px; }
+                        footer .footer-links ul li a:hover {
+                          text-decoration: none;
+                         }
+                  footer .footer-line {
+                    background-color: #f3f0f0; }
+                    .foot-text{
+                      font-size: 15px;
+                    }

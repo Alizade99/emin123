@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #f3f0f0; }
+   a {
+      text-decoration: none;  color: white
+   }
+      a:hover {
+      text-decoration: none;
+        color: white }
+        
+    ul {
+      list-style: none; } 
+          
+      .top-left {
+        padding-left: 100px;
+       
+        }
+       .top-left ul li {
+        display: inline; 
+          padding: 14px;
+          
+}       
+     .top-left ul li a {
+        color: white;
+        font-size: 17px;
+        font-family: raleway;
+      }
+  .top-left ul li a:hover {
+        color: black; 
+        text-decoration: none; 
+      }
+                .top-left .web:hover{
+                   transform: rotate(+360deg);
+                   transition: transform .4s;
+                 }       
+            .market-header {
+             position: relative;
+             z-index: 9999;
+             }      
+             .fixed-menu{
+               position: fixed;                  
+               width: 100%;
+               opacity: 0.8;
+               background-color:#343a40;
+               height: 85px;
+             }
+             #info-section{
+              background-image: url(https://www.iheartreykjavik.net/wp-content/uploads/2013/07/shopping.jpg);
+              background-position: center;
+              background-size: cover;
+              position: relative;
+              height: 700px;
+              background-attachment:fixed; 
+             }
+             #info-section .info-middle{
+               position: absolute;
+               left: 50%;
+               text-align: center;
+               top: 50%;
+               transform: translate(-50%,-50%)
+             }         
+              .market-header .navbar-inverse {
+                background-color: transparent;
+                border-color: transparent; }
+              
+              .market-header.navbar
+               {  margin: 0px;
+                padding: 0px; }
+                .menu-a {
+                    font-weight: 700;
+                    color: #666666; }                     
+              .mainDrop a{
+                color:#666666;
+              }          
+              .mainDrop:hover .dropdown-menu{
+                display: block
+              }
+              /*      <kategory> */
+
+
+            .kateqoriya{
+              margin-left: 450px;
+              font-size: 18px;
+              margin-top: 8px;
+            }
+            .kateqoriya select{
+              height: 39px;
+              width: 300px;
+              border-radius: 20px 0 0 20px;
+            }
+            .search  input[type=text] {
+                border: 1px solid #ccc;  
+              }
+              .search input[type=text] {
+                padding: 6px;
+                margin-top: 8px;
+                font-size: 17px;
+                width: 400px;
+
+              }
+            .search button {
+              float: right;
+              padding: 7px 15px;
+              margin-top: 8px;
+              font-size: 17px;
+              border: none;
+              cursor: pointer;
+              }
+              .search button:hover {
+                background: #ccc;
+              }
+              
+
+                    .side{
+                      width: 250px;
+                  }
+                   #kategory .menu a{
+                      background: #3d3d3d;
+                      color: #FFF;
+                      padding: 10px;
+                      display: block;
+                      font-size: 18px;               
+                      border-bottom: 1px solid #666;
+                      transition: 0.5s all;
+                   
+                  }
+                  #kategory  .menu a:hover{
+                      background: #666;
+                      padding: 10px 0 10px 20px;
+                  }
+                  #kategory   .menu li:first-child a,
+                  #kategory   .menu-list .menu.drop li:first-child a{
+                      border-radius: 3px 3px 0 0; 
+                  }
+                  #kategory     .menu li:last-child a,
+                  #kategory    .menu-list .menu.drop li:last-child a{
+                      border-radius:  0 0 3px 3px; 
+                      border-bottom: 0;
+                  }
+                  #kategory   .menu-list .menu.drop li a{
+                      border-radius: 0;
+                      border-bottom: 1px solid #666;
+                  
+                  } 
+                  #kategory    .menu-list{
+                      position: relative;
+                      width: 250px;
+                  }
+                  #kategory   .menu-drop{
+                    position: absolute;   
+                    z-index: 50;   
+                    left: 100%;
+                    border-left: 10px solid rgb(212, 169, 28);
+                    top: -9999em;
+                    opacity: 0;
+                    width: 100%;
+                        padding-left: 0px;
+                    transition: 0.5s opacity;
+                  
+                  }                
+                  #kategory   .menu-list:hover .menu-drop{
+                      opacity: 1;
+                      top: 0;
+                  }                  
+                  #kategory    .menu-list::after{
+                      content: " ";
+                      position: absolute;
+                      border: 5px solid;
+                      border-color: transparent transparent transparent #eee;
+                      top:1em;
+                      right: 0.7em;  
+                      transition: 0.5s;
+                  }
+                  #kategory    .menu-list:hover::after{
+                      transform: scaleX(-1)
+                  } 
+                  .discount {
+                    position: relative;
+                    overflow: hidden;
+                    background-color: white;
+                    border-radius: 100px;
+                     text-align: center;
+                     height: 277px;
+                     border: 1px solid grey;
+                  }
+                  .discount .discount-bottom{
+                      position:absolute;
+                      bottom:0;
+                      left:0;
+                      width:100%;
+                      text-align:center
+                  }
+                  .discount:hover .quickview{
+                    opacity: 0.7;
+                    color: rgb(247, 247, 247);
+                    transform: translateY(-110px);
+                  }
+                  .discount .quickview{
+                    position: absolute;
+                    transition: transform .4s;
+                    left: -5px;
+                    width: 104%;
+                    bottom: -50px;
+                    z-index: 5;
+                    padding: 6px;
+                    height: 60px;
+                    color: #f8f8f8;
+                    cursor: pointer;
+                    border-radius: 0px 0px 200px 200px;
+                    margin-bottom: -62px;
+                    background-color: #666666;
+                }
+                .discount .quickview p{
+                  margin: 4px;
+                }
+                /*  <kategory> */
+
+
+                    
+                  footer .footer-links ul {
+                    margin: 0;
+                    padding: 0; }
+                    footer .footer-links ul li {
+                      list-style: none;
+                      transition: .3s; }
+                      footer .footer-links ul li:hover {
+                        transform: translateX(2px); }
+                      footer .footer-links ul li a {
+                        text-decoration: none;
+                        color:black; }
+                        footer .footer-links img{
+                          width: 35px;
+                          border-radius: 15px; }
+                        footer .footer-links ul li a:hover {
+                          text-decoration: none;
+                         }
+                  footer .footer-line {
+                    background-color: #f3f0f0; }

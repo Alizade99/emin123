@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #f3f0f0; }
+    a {
+        text-decoration: none;
+        color: #f3f0f0;
+     }
+        a:hover {
+          text-decoration: none; 
+          color: white }
+      
+      ul {
+        list-style: none; }        
+        .top-left {
+          padding-left: 100px;
+         
+          }
+         .top-left ul li {
+          display: inline; 
+            padding: 14px;
+            
+}       
+       .top-left ul li a {
+          color: white;
+          font-size: 17px;
+          font-family: raleway;
+        }
+    .top-left ul li a:hover {
+          color: black; 
+          text-decoration: none; 
+        }
+                  .top-left .web:hover{
+                     transform: rotate(+360deg);
+                     transition: transform .4s;
+                   }       
+              .market-header {
+               position: relative;
+               z-index: 9999;
+               }      
+               .fixed-menu{
+                 position: fixed;                  
+                 width: 100%;
+                 opacity: 0.8;
+                 background-color:#343a40;
+                 height: 85px;
+               }
+                 .market-header .navbar-inverse {
+                    background-color: transparent;
+                    border-color: transparent; }
+                  
+                  .market-header.navbar
+                   {  margin: 0px;
+                    padding: 0px; }
+                 
+                    .menu-a {
+                        font-weight: 700;
+                        color: #666666; }                     
+                  .mainDrop a{
+                    color:#666666;
+                  }          
+                  .mainDrop:hover .dropdown-menu{
+                    display: block
+                  }
+
+                  #info-section{
+                    background-image: url(https://www.iheartreykjavik.net/wp-content/uploads/2013/07/shopping.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    position: relative;
+                    height: 400px;
+                    background-attachment:fixed; 
+                 
+                    
+                   }
+                   #info-section .info-middle{
+                    position: absolute;
+                    left: 50%;
+                    text-align: center;
+                    top: 50%;
+                    transform: translate(-50%,-50%)
+                  }      
+                  #info-section .info-middle p{
+                      font-size: 40px;
+                      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                      margin-top: 40px;
+                  }
+                  
+ 
+                  #watch .look img{
+                      width: 400px;
+                      margin-left: 200px;
+                  }
+                  #watch .look .num {
+                    border: 1px solid #d8d8d8;
+                    border-radius: 4px;
+                    display: block;
+                    margin: 8px;
+                    height: 46px;
+                    font-size: 18px;
+                    color: #3c3c3c;
+                    padding: 0px 10px;
+                    box-sizing: border-box;
+                    width: 80%;}
+
+
+         .cart {  background: rgb(36, 42, 53);
+    border-width: 0;
+    border-color: #687FAD;
+    border-radius: 15px;
+    font: normal normal normal 17px/1.4em brandon-grot-w01-light,sans-serif;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: 73%;
+    border-style: solid;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all .3s ease;
+                    }
+                    .cart:hover{
+                      background-color:#6c757d;;
+                    }
+
+                    /* <related> */
+                    #related .item p{
+                      padding: 10px 0px 0px 10px;
+                    }
+                    #related .item span{
+                      padding: 0px 0px 10px 10px;
+                      opacity: 0.9;
+
+                    }
+                    .owl-nav, .owl-dots{
+                      opacity: 0;
+                    }
+                    #related .item{
+                      border: #000 solid 1px;
+                      height: 320px;
+                    }
+      /* <related> */
+
+
+                    /* Footer */
+                footer .footer-links ul {
+                  margin: 0;
+                  padding: 0; }
+                  footer .footer-links ul li {
+                    list-style: none;
+                    transition: .3s; }
+                    footer .footer-links ul li:hover {
+                      transform: translateX(2px); }
+                    footer .footer-links ul li a {
+                      text-decoration: none;
+                      color:black; }
+                      footer .footer-links img{
+                        width: 35px;
+                        border-radius: 15px; }
+                      footer .footer-links ul li a:hover {
+                        text-decoration: none;
+                       }
+                footer .footer-line {
+                  background-color: #f3f0f0; }
+                           /* Footer */

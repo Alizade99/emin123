@@ -1,0 +1,92 @@
+﻿
+
+
+@using PagedList;
+@using PagedList.Mvc;
+@model Market.Views.ViewModel.Default.DefaultViewModel
+
+<section id="info-section" style="  background-image: url(https://www.iheartreykjavik.net/wp-content/uploads/2013/07/shopping.jpg);">
+    <div class="info-middle">
+        <p style=" font-size: 24px;font-weight: bold;line-height: 1.3em;margin-right: 35px;color: #414B5F;text-align: center;font-family: didot-w01-italic,serif;">Bütün supermarketlər haqqında<br> endirimlərdən xəbərdar ol,<br> bazarlığını bizdən et!</p>
+        <a class="buy mr-4" href="@Url.Action("Online","Home")">Online Alış-veriş Fursatdan</a>
+    </div>
+</section>
+
+<div class="container-fluid">
+    <div class="row" data-aos="fade-up">
+        <hr align="right" width="20%" style="margin-top:100px;background-color:black;">
+        <div class="yeni mt-5">
+            <h3>Yeni endirimlər</h3>
+            <p>Azərbaycanda olan ən böyük və məşhur supermarketlərdəki <br>endirimlərlə burada tanış ola bilərsiniz.</p>
+        </div>
+        <hr align="left" width="20%" style="margin-top: 100px;background-color:black;">
+    </div>
+</div>
+
+<section id="items mt-5">
+    <div class="container">
+        <h4 class="mt-3" style="text-align:center;font-family:  raleway;">Related Product</h4>
+        <div class="col-md-12">
+            <div class="container">
+                <div class="row" style=" justify-content: center;">
+                    <div class="col-md-11">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="container">
+
+                                        <div class="row" style=" justify-content: center;">
+                                            @foreach (var item in Model.productListPaged)
+                                            {
+                                                <div class="col-md-3 mt-3" style="padding: 17px;">
+                                                    <a href="@Url.Action("Details", "Products", new { id = item.Id })">
+                                                        <div class="discount">
+                                                            <div class="quickview">
+                                                                <p style="font-size: 22px;">Quick View</p>
+                                                            </div>
+                                                            <img class="img-fluid mt-3" src=@item.Image>
+                                                            <h4 style="color: black">@item.Name</h4>
+                                                            <span style="color: black;opacity: 0.7;font-size: 17px"><del>@item.Price</del>AZN</span>
+                                                            <p style="color: black">@item.Discount_price AZN</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            }
+
+                                        </div>
+
+
+                                    </div>
+                                    @Html.PagedListPager(Model.productListPaged, _sayfaNo => Url.Action("Index", "Home", new { SayfaNo = _sayfaNo }))
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- <Blog></Blog> -->
+<section id="blog" class="mt-5">
+    <div class="container-fluid slide-bord  mb-5 ">
+
+        <div class="owl-carousel owl-theme">
+            <div class="magaza pl-5 text-center">
+                <h4>Bu senin Fursetindir</h4>
+            </div>
+            <div class="magaza pl-5  text-center">
+                <h4>“ Supermarketlərdə olan endirimlər haqqında məlumatı 1 sayta daxil<br> olaraq əldə et-Fursat.az”</h4>
+            </div>
+            <div class="magaza pl-5 text-center">
+                <h4>“Bazarlığınızı evdə oturaraq rahat şəkildə edin”</h4>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- <Blog></Blog> -->

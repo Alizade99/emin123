@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #f3f0f0; }
+     a {
+        text-decoration: none;  color: white
+     }
+        a:hover {
+        text-decoration: none;
+          color: white }
+          
+      ul {
+        list-style: none; } 
+          .top-left {
+            padding-left: 100px;
+           
+            }
+           .top-left ul li {
+            display: inline; 
+              padding: 14px;
+              
+}       
+         .top-left ul li a {
+            color: white;
+            font-size: 17px;
+            font-family: raleway;
+          }
+      .top-left ul li a:hover {
+            color: black; 
+            text-decoration: none; 
+          }
+                    .top-left .web:hover{
+                       transform: rotate(+360deg);
+                       transition: transform .4s;
+                     }       
+                .market-header {
+                 position: relative;
+                 z-index: 9999;
+                 }      
+                 .fixed-menu{
+                   position: fixed;                  
+                   width: 100%;
+                   opacity: 0.8;
+                   background-color:#343a40;
+                   height: 85px;
+                 }
+                 #info-section{
+                  background-image: url(https://www.iheartreykjavik.net/wp-content/uploads/2013/07/shopping.jpg);
+                  background-position: center;
+                  background-size: cover;
+                  position: relative;
+                  height: 700px;
+                  background-attachment:fixed; 
+                 }
+                 #info-section .info-middle{
+                   position: absolute;
+                   left: 50%;
+                   text-align: center;
+                   top: 50%;
+                   transform: translate(-50%,-50%)
+                 }         
+                  .market-header .navbar-inverse {
+                    background-color: transparent;
+                    border-color: transparent; }
+                  .altmenu{
+                    
+                    width: 200px;
+                  }
+                  .market-header.navbar
+                   {  margin: 0px;
+                    padding: 0px; }
+                    .menu-a {
+                        font-weight: 700;
+                        color: #666666; }                     
+                  .mainDrop a{
+                    color:#666666;
+                  }          
+                  .mainDrop:hover .dropdown-menu{
+                    display: block
+                  }
+                  .buy{
+                    background-color:rgba(255, 64, 64, 1);
+                    border-radius: 30px;
+                    font-size: 24px;
+                    padding: 15px;
+                  }
+                  .buy:hover{
+                    background-color :#09616e;
+                  }
+                  .yeni{
+                    text-align: center;
+                  }
+                  .discount{
+                    position: relative;
+                     width: 113%; 
+                     overflow: hidden;
+                     background-color: white;
+                     border-radius: 100px;
+                      text-align: center;
+                      border: 1px solid grey;
+                     
+                  }
+                  .discount:hover .quickview{
+                    color: rgb(247, 247, 247);
+                    transform: translateY(-110px);
+                  }
+                  .discount .quickview{
+                    position: absolute;
+                    transition: transform .4s;
+                    left: -5px;
+                    width: 104%;
+                    bottom: -50px;
+                    z-index: 5;
+                    padding: 6px;
+                    height: 70px;
+                    color: #f8f8f8;
+                    cursor: pointer;
+                    border-radius: 0px 0px 200px 200px;
+                    margin-bottom: -62px;
+                    background-color: #666666;
+                }
+                .discount .quickview p{
+                  margin: 4px;
+                  font-size: 18px
+                }
+                  #items{
+                    background-image: url(https://www.iheartreykjavik.net/wp-content/uploads/2013/07/shopping.jpg)!important;
+                    background-position: center;
+                    background-size: cover;
+                  }
+                  #blog{
+                   background-color: darkslategray;
+                  }
+                  #blog .magaza{
+                    margin: 100px;                 
+                  }
+                  #blog .magaza h4{
+                    color: white;
+                    margin-bottom: 25px;
+                    padding-top: 25px;
+                  }
+                  .page-link {
+                    position: relative;
+                    display: block;
+                    padding: 0.5rem 0.75rem;
+                    margin-left: -1px;
+                    line-height: 1.25;
+                    color: black;
+                    background-color: #fff;
+                    border: 1px solid #dee2e6;
+                  }
+
+
+                  footer .footer-links ul {
+                    margin: 0;
+                    padding: 0; }
+                    footer .footer-links ul li {
+                      list-style: none;
+                      transition: .3s;
+                      font-family: 'Courier New', Courier, monospace; }
+                      footer .footer-links ul li:hover {
+                        transform: translateX(2px); }
+                      footer .footer-links ul li a {
+                        text-decoration: none;
+                        color:black;
+                        font-family: 'Courier New', Courier, monospace; }
+                        footer .footer-links img{
+                          width: 35px;
+                          border-radius: 15px; }
+                        footer .footer-links ul li a:hover {
+                          text-decoration: none;
+                         }
+                  footer .footer-line {
+                    background-color: #f3f0f0; }
+                    .foot-text{
+                      font-size: 15px;
+                      font-family: 'Courier New', Courier, monospace;
+                      font-size: bold;
+                    }
+                    .owl-nav, .owl-dots{
+                      opacity: 0;
+                    }
+                 
